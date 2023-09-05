@@ -9,8 +9,8 @@ spec:
   prune: false
   sourceRef:
     kind: GitRepository
-    name: flux-system 
----
+    name: flux-system
+----
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
@@ -21,4 +21,4 @@ spec:
   url: https://github.com/venkallex/flux2
   ref:
     branch: master
----
+----
