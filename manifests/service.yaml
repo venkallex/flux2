@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: react-application
   namespace: default
-  namespace: 
   labels:
     run: react-application
 spec:
