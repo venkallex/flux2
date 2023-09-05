@@ -18,7 +18,7 @@ metadata:
   name: helm-source
   namespace: flux-system
 spec:
-  interval: 10m
+  interval: 1m
   url: https://github.com/venkallex/flux2
   ref:
     branch: master
