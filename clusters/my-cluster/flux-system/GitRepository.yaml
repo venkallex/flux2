@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: react-app
-  namespace: flux-system
+  namespace: helmspace
 spec:
   interval: 1m
   url: https://github.com/venkallex/flux2.git
