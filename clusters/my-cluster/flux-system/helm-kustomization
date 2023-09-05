@@ -19,6 +19,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/venkallex/flux2
+  url: https://github.com/flux2/clusters/my-cluster/flux-system
   ref:
     branch: master
