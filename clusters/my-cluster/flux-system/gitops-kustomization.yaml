@@ -17,8 +17,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: "./manifests"
-  prune: true
+  path: ./manifests
+  prune: false
   sourceRef:
     kind: GitRepository
     name: react-app
