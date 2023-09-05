@@ -12,5 +12,5 @@ spec:
         kind: HelmRepository
         name: starboard-operator
         namespace: starboard-system
-      version: 0.10.3
+      version: 0.10.4
   interval: 1m0s
