@@ -4,7 +4,7 @@ metadata:
   name: react-application
   namespace: default
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       run: react-application
@@ -19,5 +19,4 @@ spec:
         ports:
           - containerPort: 80
         imagePullPolicy: Always
-        securityContext:
-          allowPrivilegeEscalation: false
+       
