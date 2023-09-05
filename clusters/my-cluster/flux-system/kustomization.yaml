@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
-#- helm-kustomization.yaml
+- helm-kustomization.yaml
 - gitops-kustomization.yaml
 - GitRepository.yaml
