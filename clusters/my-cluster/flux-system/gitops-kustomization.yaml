@@ -17,7 +17,7 @@ metadata:
   name: react-app
   namespace: flux-system
 spec:
-  interval: 5m0s
+  interval: 1m0s
   path: ./manifests
   prune: false
   sourceRef:
