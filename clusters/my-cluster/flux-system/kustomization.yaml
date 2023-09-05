@@ -5,3 +5,4 @@ resources:
 - gotk-sync.yaml
 #- helm-kustomization.yaml
 - gitops-kustomization.yaml
+- GitRepository.yaml
