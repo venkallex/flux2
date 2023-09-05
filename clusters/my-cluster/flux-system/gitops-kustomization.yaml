@@ -8,11 +8,7 @@ spec:
   url: https://github.com/venkallex/flux2.git
   ref:
     branch: main
-  ignore: |
-    # exclude all
-    /*
-    # include charts directory
-    !/manifests/
+  
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
