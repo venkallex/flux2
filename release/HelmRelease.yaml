@@ -9,6 +9,6 @@ spec:
       chart: "./flux-chart"
       sourceRef:
         kind: GitRepository
-        name:  react-app
+        name: react-app
   interval: 1m0s
   targetNamespace: helmspace
