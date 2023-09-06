@@ -10,7 +10,7 @@ spec:
     kind: GitRepository
     name: podinfo
     namespace: flux-system
-  path: "./manifests"
+  path: "./release"
   prune: true
   timeout: 1m
   
