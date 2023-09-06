@@ -4,7 +4,7 @@ metadata:
   name: chart-application
 spec:
   interval: 1m0s
-  path: ./flux-chart
+  path: ./release
   prune: false
   sourceRef:
     kind: GitRepository
