@@ -8,7 +8,7 @@ spec:
     spec:
       chart: flux-chart
       sourceRef:
-        kind: GitRepository
+        kind: GitRepository 
         name: helm-app
   interval: 1m0s
   targetNamespace: helmspace
