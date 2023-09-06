@@ -8,8 +8,8 @@ spec:
   url: https://github.com/venkallex/flux2
   ref:
     branch: main
-  ignore: |
-    # exclude all
-    /*
+  #ignore: |
+   # # exclude all
+    #/*
     # include charts directory
-    !/flux-chart/ 
+    #!/flux-chart/ 
