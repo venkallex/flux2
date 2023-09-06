@@ -9,6 +9,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: podinfo
+    namespace: flux-system
   path: "./release"
   prune: true
   timeout: 1m
