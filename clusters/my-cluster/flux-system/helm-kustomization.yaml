@@ -9,8 +9,8 @@ spec:
   prune: false
   sourceRef:
     kind: GitRepository
-    name: react-app
-  targetNamespace: helmspace
+    name: podinfo
+    namespace: flux-system
   
   
 
