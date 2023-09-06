@@ -12,4 +12,4 @@ spec:
         name: react-app
         namespace: default
   interval: 1m0s
-  targetNamespace: helmspace
+
