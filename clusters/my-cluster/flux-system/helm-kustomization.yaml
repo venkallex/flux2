@@ -10,5 +10,5 @@ spec:
   sourceRef:
     kind: GitRepository
     name: react-app
-    namespace: helmspace    
+    targetNamespace: helmspace  
 
