@@ -7,9 +7,9 @@ spec:
   chart:
     spec:
       chart: flux-chart
-      path: ./flux-chart
       sourceRef:
         kind: GitRepository
         name: react-app
+        namespace: helmspace
   interval: 1m0s
 
