@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: /flux-chart
+      chart: flux-chart/flux-chart
       sourceRef:
         kind: GitRepository
         name:  react-app
