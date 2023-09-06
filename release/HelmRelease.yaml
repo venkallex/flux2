@@ -10,6 +10,5 @@ spec:
       sourceRef:
         kind: GitRepository
         name: react-app
-        namespace: default
   interval: 1m0s
 
