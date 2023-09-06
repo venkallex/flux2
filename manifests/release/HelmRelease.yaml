@@ -6,9 +6,9 @@ metadata:
 spec:
   chart:
     spec:
-      chart: flux-chart/flux-chart
+      chart: flux-chart
       sourceRef:
         kind: GitRepository
-        name:  react-app
+        name: helm-app
   interval: 1m0s
   targetNamespace: helmspace
