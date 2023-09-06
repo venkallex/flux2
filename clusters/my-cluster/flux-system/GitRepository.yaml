@@ -7,9 +7,9 @@ spec:
   url: https://github.com/venkallex/flux2.git
   ref:
     branch: main
-  ignore: |  
+  #ignore: |  
     # exclude all
-    /*
+   # /*
     # include charts directory
-    !/manifests/
-    !/flux-chart/
+    #!/manifests/
+    #!/flux-chart/
