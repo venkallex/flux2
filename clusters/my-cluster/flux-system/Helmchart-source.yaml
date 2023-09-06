@@ -1,9 +1,0 @@
-apiVersion: source.toolkit.fluxcd.io/v1
-kind: GitRepository
-metadata:
-  name: helm-app
-spec:
-  interval: 1m
-  url: https://github.com/venkallex/flux2/flux-chart
-  ref:
-    branch: main
