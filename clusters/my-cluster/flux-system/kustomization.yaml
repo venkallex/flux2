@@ -6,3 +6,4 @@ resources:
 - helm-kustomization.yaml
 - gitops-kustomization.yaml
 - GitRepository.yaml
+- Helmchart-source.yaml
