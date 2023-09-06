@@ -12,3 +12,4 @@ spec:
     /*
     # include charts directory
     !/manifests/
+    !/flux-chart/
